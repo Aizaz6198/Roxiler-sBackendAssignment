@@ -52,9 +52,9 @@ Start the server for frontend:
 
 Create a .env file in the "server" directory of project with the following content:
 
-PORT = 5000
-TRANSACTIONS_API = https://s3.amazonaws.com/roxiler.com/product_transaction.json
-MONGO_URI = mongodb://localhost:27017/products
+- PORT = 5000
+- TRANSACTIONS_API = https://s3.amazonaws.com/roxiler.com/product_transaction.json
+- MONGO_URI = mongodb://localhost:27017/products
 
 
 Adjust the MONGO_URI and PORT as needed.
