@@ -1,0 +1,57 @@
+.Statistics-comp {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-month-picker-div {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 1px solid #c2e9fb;
+    border-radius: 5px;
+    background-color: #a1c4fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.statistics-month-picker-div:hover {
+    background-color: #c2e9fb;
+    color: #fff;
+}
+
+.statistics-month-picker {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #c2e9fb;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.statistics-month-picker:hover {
+    background-color: #6a7175;
+    color: #fff;
+}
+
+.statistics-div {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
